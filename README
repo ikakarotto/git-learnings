@@ -18,3 +18,5 @@ git branch -D master
 git branch -m master
 git push -f origin master
 
+# @refer: http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html 常用Git命令清单
+#
