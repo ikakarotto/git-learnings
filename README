@@ -1,5 +1,14 @@
 # learning git
 
+# ------------ add a repo ----------
+echo "# git-learnings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ikakarotto/git-learnings.git
+git push -u origin master
+# GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa" git push --set-upstream -f git@github.com:ikakarotto/git-learnings.git master
+
 # ------------ delete all git log -----------
 # @refer: https://gist.github.com/heiswayi/350e2afda8cece810c0f6116dadbe651
 git checkout --orphan TEMP_BRANCH
